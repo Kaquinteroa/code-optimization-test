@@ -1,7 +1,6 @@
 public class TaxCalculation {
     public static void main(String[] args) {
-        double productPrice1 = 100;
-        double productPrice2 = 200;
+       final double PRODUCT_PRICES[] PRODUCT_PRICES = (100, 200);
         double tax1 = productPrice1 * 0.15;
         double tax2 = productPrice2 * 0.10;
         double totalTax = tax1 + tax2;
