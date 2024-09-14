@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class AgeValidation {
     public static void main(String[] args) {
         int age = 18;
